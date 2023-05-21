@@ -40,7 +40,7 @@ To use this repository, please follow the steps below:
 3. Run the anomaly detection system:
 
    ```bash
-   python Api.py
+   python API.py
    ```
 
 ## Usage
