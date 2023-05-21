@@ -1,6 +1,6 @@
 # Anomaly Detection
 
-This repository contains an implementation of an anomaly detection system. The system is designed to identify unusual patterns or outliers in a given dataset. 
+This repository hosts an implementation of an anomaly detection system. Its primary objective is to proficiently recognize uncommon patterns or outliers within a given dataset.
 
 ## Table of Contents
 
@@ -13,13 +13,13 @@ This repository contains an implementation of an anomaly detection system. The s
 
 ## Introduction
 
-Anomaly detection plays a critical role in various domains such as fraud detection, intrusion detection, system health monitoring, and many more. This project aims to provide a robust and customizable anomaly detection system that can be applied to different types of datasets.
+Anomaly detection assumes a pivotal role across diverse domains, including fraud detection, intrusion detection, system health monitoring, and more. The objective of this project is to offer a resilient and adaptable anomaly detection system capable of addressing various types of datasets.
  
 ## Approaches
-When we get analise the data we all had different approaches to tackle the problem statement some of them are listed below -
-1. We thought of treating this problem statement as semi-supervised learning. We would handpick some data which we think are anomly of different kinds and then apply featuren engineering and some algorithms on that data to see which model will give us the desired output . We had to drop that idea cause the dataset was so large we can't open the file on our systems and handpick or observe the data.
-2. There were manay different opinions on how could we reduce dimensions and make data more readable to computer. Some of them were data embeding , different encoding methods which we have used.
-3. Finally we all agreed on using the K-means,GMM and some encoding methods in [Model](https://github.com/tans-hul/Anomly-Detection/blob/main/Model%20Creation%20(10%20lakh)%20(test).ipynb) file.
+During the data analysis phase, we adopted diverse approaches to address the problem statement. Some of these approaches included:
+1. Initially, we considered a semi-supervised learning approach but dropped it due to the dataset's size limitations for manual data selection.
+2. Different methods such as data embedding and various encoding techniques were explored for dimensionality reduction and improved data interpretability.
+3. Finally, we agreed to use K-means, GMM, and specific encoding methods in our [model](https://github.com/tans-hul/Anomly-Detection/blob/main/Model%20Creation%20(10%20lakh)%20(test).ipynb).
 
 ## Installation
 
@@ -45,7 +45,7 @@ To use this repository, please follow the steps below:
 
 ## Usage
 
-Once the system is running, you can specify the input dataset and choose the appropriate anomaly detection algorithm. The system will process the data and provide you with the detected anomalies. 
+Once the system is operational, you have the flexibility to specify the input dataset and select the suitable anomaly detection algorithm. The system will then process the data and present you with the identified anomalies.
 
 For detailed usage instructions and examples, please refer to the [documentation](#).
 
@@ -58,6 +58,7 @@ The repository includes a sample dataset located in the `data` directory. You ca
 The repository currently supports the following anomaly detection algorithms:
 
 - [K-means](https://en.wikipedia.org/wiki/K-means_clustering)
+- [GMM](https://en.wikipedia.org/wiki/Mixture_model)
 
-We tried and tested different algorithms such as Hierarchical Clustering, DBSCAN, Spectral Clustering, GMM and K Means Clustering but k-means gave the efficient result according to our observation.
+We experimented with several algorithms, including Hierarchical Clustering, DBSCAN, Spectral Clustering, GMM, and K-means Clustering. However, based on our observations, K-means and GMM yielded the most efficient results.
 
