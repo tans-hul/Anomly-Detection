@@ -19,7 +19,7 @@ Anomaly detection plays a critical role in various domains such as fraud detecti
 When we get analise the data we all had different approaches to tackle the problem statement some of them are listed below -
 1. We thought of treating this problem statement as semi-supervised learning. We would handpick some data which we think are anomly of different kinds and then apply featuren engineering and some algorithms on that data to see which model will give us the desired output . We had to drop that idea cause the dataset was so large we can't open the file on our systems and handpick or observe the data.
 2. There were manay different opinions on how could we reduce dimensions and make data more readable to computer. Some of them were data embeding , different encoding methods which we have used.
-3. Finally we all agreed on using the K-means and some encoding methods in [Model](https://github.com/tans-hul/Anomly-Detection/blob/main/Model%20Creation%20(10%20lakh)%20(test).ipynb) file.
+3. Finally we all agreed on using the K-means,GMM and some encoding methods in [Model](https://github.com/tans-hul/Anomly-Detection/blob/main/Model%20Creation%20(10%20lakh)%20(test).ipynb) file.
 
 ## Installation
 
