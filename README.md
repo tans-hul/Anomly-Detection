@@ -51,7 +51,7 @@ For detailed usage instructions and examples, please refer to the [documentation
 
 ## Dataset
 
-The repository includes a sample dataset located in the `data` directory. You can replace it with your own dataset or use the provided data as a starting point for experimentation. Make sure your dataset is properly formatted and compatible with the selected anomaly detection algorithm.
+The repository includes a sample dataset located in the `data` variable. You can replace it with your own dataset or use the provided data as a starting point for experimentation. Make sure your dataset is properly formatted and compatible with the selected anomaly detection algorithm.
 
 ## Algorithms
 
