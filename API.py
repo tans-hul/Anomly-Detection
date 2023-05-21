@@ -125,7 +125,12 @@ def predict():
     json_data = request.json
 
     # Getting the predictions
-    result = get_prediction(json_data)
+    if isinstance(json_data, dict):
+        result = get_prediction(json_data)
+    else:
+        result = []
+        for data in json_data: 
+            result.append(get_prediction(data))
 
     # Return the prediction as a response
     return jsonify(result)
