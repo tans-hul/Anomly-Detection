@@ -19,7 +19,7 @@ Anomaly detection assumes a pivotal role across diverse domains, including fraud
 During the data analysis phase, we adopted diverse approaches to address the problem statement. Some of these approaches included:
 1. Initially, we considered a semi-supervised learning approach but dropped it due to the dataset's size limitations for manual data selection.
 2. Various techniques, such as PCA (Principal Component Analysis) and different encoding methods, were explored to reduce dimensionality and enhance the interpretability of the data.
-3. Finally, we agreed to use K-means, GMM, and specific encoding methods in our [model](https://github.com/tans-hul/Anomly-Detection/blob/main/Model%20Creation%20(1%20crore)%20(main).ipynb).
+3. Finally, we agreed to use K-means, GMM, and specific encoding methods in our [model](https://github.com/tans-hul/Anomly-Detection/blob/main/notebooks/Model%20Creation%20(1%20crore)%20(main).ipynb).
 
 ## Installation
 
